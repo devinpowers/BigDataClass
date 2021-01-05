@@ -25,10 +25,3 @@ A = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
 
 data2 = p.DataFrame(A)
 
-input_number = input(int("PLease Enter a number: "))
-
-for i in range(1,input_number):
-    
-    print(i)
-    
-    
