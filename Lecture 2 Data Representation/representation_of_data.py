@@ -5,10 +5,10 @@ Loading CSV File in Python
 """
 
 ## Using the Standard Python Library
-
+## Open csv File as an Object and read and seperate lines 
 with open('vehicle.csv', 'r') as f:
     column_names = f.readline().strip().split(',')
-    data = []
+    data = [] ## creating an array
     
     for line in f:
         
